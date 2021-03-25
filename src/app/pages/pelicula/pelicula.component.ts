@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { PeliculasService } from '../../services/peliculas.service';
+import { Movie } from '../../interfaces/cartelera-response';
 
 @Component({
   selector: 'app-pelicula',
@@ -8,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PeliculaComponent implements OnInit {
 
-  constructor() { }
+
+
+
+  constructor(private peliculasService: PeliculasService) { }
 
   ngOnInit(): void {
+    
+
   }
 
 }
