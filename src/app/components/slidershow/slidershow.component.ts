@@ -27,7 +27,7 @@ export class SlidershowComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit(): void {
-    console.log(this.movies);
+    // console.log(this.movies);
   }
 
   onSlideNext(){  
